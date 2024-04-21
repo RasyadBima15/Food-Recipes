@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="189dp"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:background="@drawable/profile"
+            android:scaleType="fitCenter"
+            app:riv_mutate_background="true"
+            app:riv_oval="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:text="Username"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sayaganteng@gmail.com"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All Foods"
+        android:textSize="18sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="12dp"
+        android:textColor="@color/white"
+        android:drawableStart="@drawable/food"
+        android:drawablePadding="8dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Post"
+        android:textSize="18sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="12dp"
+        android:textColor="@color/white"
+        android:drawableStart="@drawable/add"
+        android:drawablePadding="8dp"/>
+    <LinearLayout
+        android:id="@+id/btn_sosmed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="12dp"
+        android:orientation="vertical">
+    </LinearLayout>
+    <View
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/white"/>
+    <LinearLayout
+        android:id="@+id/btn_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="12dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:drawablePadding="8dp"
+            android:layout_marginBottom="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dessert"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:drawablePadding="8dp"
+            android:drawableStart="@drawable/dessert"
+            android:layout_marginBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="8dp"
+            android:text="Main Course"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:drawableStart="@drawable/main_course"
+            android:layout_marginBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="8dp"
+            android:text="Appetizer"
+            android:drawableStart="@drawable/appetizer"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>
