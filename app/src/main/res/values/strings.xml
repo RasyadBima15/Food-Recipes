@@ -1,14 +1,17 @@
 <resources>
 
-<!-- APPETIZER -->
-    <string name="app_name">Food Recipes</string>
+    <!-- APPETIZER -->
+    <string name="recipeName">Recipe Name</string>
+
+    <string name="ingredients">Ingredients</string>
+
     <string name="serabi">- 300 ml santan kelapa
                           - 8 sdm tepung beras
                           - 5 sdm gula pasir
                           - Sejumput garam
                           - Ragi instan secukupnya </string>
 
-    <string name="serabi_tutor" >1. Masak santan dengan gula hingga mendidih. Kemudian biarkan santan dingin terlebih dahulu.
+    <string name="serabi_tutor">1. Masak santan dengan gula hingga mendidih. Kemudian biarkan santan dingin terlebih dahulu.
                                  2. Dalam wadah lain, masukkan tepung beras, garam, ragi dan santan yang telah dingin, campur hingga rata.
                                  3. Panaskan cetakan dengan api kecil, dapat juga menggunakan wajan gerabah. Ambilah satu sendok sayur dan tuang ke dalam cetakan.
                                  4. Biarkan serabi hingga muncul rongga-rongga dan serabi benar-benar matang. Angkat dan lakukan pada adonan yang masih tersisa.
@@ -26,7 +29,7 @@
                                   - 3 sdm gula pasir
                                   - 1 sdm air jeruk nipis </string>
 
-    <string name="selada_bangkok_tutor" >1. Cuci mentimun,kupas lalu potong sesuai selera.
+    <string name="selada_bangkok_tutor">1. Cuci mentimun,kupas lalu potong sesuai selera.
                                          2. Kupas nanas,cuci kemudian dipotong kipas.
                                          3. Taoge dibuang ekornya,dicuci,kemudian seduh dengan air panas,tiriskan.
                                          4. Cuci kol lalu iris halus sesuai selera.
@@ -35,9 +38,9 @@
                                          7. Tata sayuran telur di atas piring saji. Sajikan bersama dengan sausnya. </string>
 
 
-<!-- MAIN COURSE -->
+    <!-- MAIN COURSE -->
 
-    <string name="chicken_shish_kebab" >- 400 gr fillet dada ayam
+    <string name="chicken_shish_kebab">- 400 gr fillet dada ayam
                                         - 2 buah paprika merah
                                         - 50 gr greek yogurt
                                         - 3 siung bawang putih
@@ -49,13 +52,13 @@
                                         - 1 sdm Tropicana Slim Kecap Asin
                                         - 1/4 sdt lada </string>
 
-    <string name="chicken_shish_kebab_tutor" >1. Campur semua bahan kecuali paprika merah. Marinasi selama 2 - 6 jam di kulkas.
+    <string name="chicken_shish_kebab_tutor">1. Campur semua bahan kecuali paprika merah. Marinasi selama 2 - 6 jam di kulkas.
                                               2. Campur semua bahan lemon yoghurt dressing dan simpan di kulkas.
                                               3. Panaskan oven di suhu 200°C. Siapkan tusukan dan susun daging ayam berselang-seling dengan paprika merah.
                                               4. Panggang selama 15-20 menit dan dibalik saat 8 menit pertama.
                                               5. Sajikan "Chicken Shish Kebab" dengan nasi basmati, salad dan lemon yoghurt dressing. </string>
 
-    <string name="chicken_mushroom" >- 250gr Fillet Dada Ayam
+    <string name="chicken_mushroom">- 250gr Fillet Dada Ayam
                                      - 50gr Fillet Paha Atas Ayam
                                      - 250gr Jamur Champignon
                                      - 2 sachet Tropicana Slim Santan Less Fat
@@ -65,13 +68,13 @@
                                      - Garam
                                      - Lada </string>
 
-    <string name="chicken_mushroom_tutor" >1. Cuci bersih daging ayam, kemudian potong dadu.
+    <string name="chicken_mushroom_tutor">1. Cuci bersih daging ayam, kemudian potong dadu.
                                            2. Potong jamur champignon menjadi 4 irisan.
                                            3. Panaskan Tropicana Slim Corn Oil, kemudian tumis daging ayam, bubuhkan bawang putih bubuk, lalu aduk hingga rata.
                                            4. Masukkan jamur champignon, aduk sampai teksturnya lembut.
                                            5. Masukkan Tropicana Slim Santan Less Fat, aduk merata, tambahkan parsley bubuk, garam, dan lada secukupnya. Kemudian aduk merata sampai mendidih, angkat dan sajikan. </string>
-    
-    <string name="pan_seared_shrimp" >- 500 gr Udang ukuran besar
+
+    <string name="pan_seared_shrimp">- 500 gr Udang ukuran besar
                                       - 2 sdm Tropicana Slim Kecap Asin
                                       - 1 sdt lada hitam
                                       - 1 sdm paprika bubuk
@@ -79,13 +82,13 @@
                                       - Tropicana Slim Extra Virgin Olive Oil secukupnya
                                       - Perasan lemon secukupnya </string>
 
-    <string name="pan_seared_shrimp_tutor" >1. Kupas dan bersihkan udang terlebih dahulu. Lumuri dengan Tropicana Slim Kecap Asin, lada hitam, dan paprika bubuk. Diamkan hingga 10 menit.
+    <string name="pan_seared_shrimp_tutor">1. Kupas dan bersihkan udang terlebih dahulu. Lumuri dengan Tropicana Slim Kecap Asin, lada hitam, dan paprika bubuk. Diamkan hingga 10 menit.
                                             2. Panaskan pan dan tuang Tropicana Slim Extra Virgin Olive Oil secukupnya.
                                             3. Masukkan udang yang sudah dilumuri bumbu dan masak hingga matang.
                                             4. Sebelum diangkat, tambahkan sedikit perasan lemon dan aduk hingga rata.
                                             5. Tambahkan parsley cincang dan "Pan-Seared Shrimp" siap disajikan hangat. </string>
 
-    <string name="ratatouille" > - 1 buah Zucchini
+    <string name="ratatouille"> - 1 buah Zucchini
                                 - 1 buah Terung
                                 - 1 buah Labu kuning
                                 - Paprika 3 warna (hijau, merah, kuning)
@@ -94,28 +97,28 @@
                                 - Garam
                                 - Lada
                                 - 2 sdm Tropicana Slim Minyak Jagung </string>
-    
-    <string name="ratatouille_tutor" >  1. Rebus buah Tomat utuh selama +/- 2 menit, tiriskan, buang kulitnya, potong kemudian buang biji tomatnya, dan potong kotak
+
+    <string name="ratatouille_tutor">  1. Rebus buah Tomat utuh selama +/- 2 menit, tiriskan, buang kulitnya, potong kemudian buang biji tomatnya, dan potong kotak
                                         2. Potong dadu zucchini, terung, labu kuning, dan paprika
                                         3. Tuangkan 2 sdm Tropicana Slim Minyak Jagung ke dalam pan. Saat minyak mulai panas, masukkan labu kuning, kemudian tumis beberapa saat hingga terlihat melembut. Setelah itu, secara satu per satu masukkan paprika kemudian tumis sebentar, masukkan terong dan tumis kembali, masukkan zucchini lalu tumis sebentar, dan terakhir masukkan tomat, kemudian tumis kembali.
                                         4. Bubuhkan Italian Herbs, aduk merata, masukkan garam dan lada secukupnya. Aduk merata, angkat dan sajikan. </string>
 
 
-<!-- DESSERT -->
+    <!-- DESSERT -->
 
-    <string name="hokkaido_dessert_cup" >- 500 ml Tropicana Slim Low Fat Milk Vanilla
+    <string name="hokkaido_dessert_cup">- 500 ml Tropicana Slim Low Fat Milk Vanilla
                                          - 50 ml Tropicana Slim Kental Manis
                                          - 50 gr Maizena
                                          - 100 gr Tropicana Slim Hokkaido Cheese Cookies
                                          - 2 sdm Tropicana Slim Kental Manis
                                          - 200 gr Tropicana Slim Strawberry Jam secukupnya </string>
 
-    <string name="hokkaido_dessert_cup_tutor" > 1. Campur semua bahan Vla Susu dan masak hingga mengental. Dinginkan.
+    <string name="hokkaido_dessert_cup_tutor"> 1. Campur semua bahan Vla Susu dan masak hingga mengental. Dinginkan.
                                                 2. Haluskan Tropicana Slim Hokkaido Cheese Cookies dan campur dengan 2 sdm Tropicana Slim Kental Manis, aduk rata.
                                                 3. Susun di dalam cup dengan urutan sebagai berikut: Vla Susu - Tropicana Slim Strawberry Jam - Tropicana Slim Hokkaido Cheese Cookies. Ulangi urutan ini hingga cup penuh.
                                                 4. "Hokkaido Dessert Cup" siap disajikan. </string>
 
-    <string name="goguma_puto_cheese" > - 120 gr terigu protein sedang
+    <string name="goguma_puto_cheese"> - 120 gr terigu protein sedang
                                         - 25 gr light butter cair
                                         - 1 butir telur
                                         - 40 gr Tropicana Slim Korean Goguma Cookies
@@ -127,13 +130,13 @@
                                         - Kacang sangrai
                                         - Keju </string>
 
-    <string name="goguma_puto_cheese_tutor" >   1. Haluskan Tropicana Slim Korean Goguma Cookies terlebih dahulu. Sisihkan.
+    <string name="goguma_puto_cheese_tutor">   1. Haluskan Tropicana Slim Korean Goguma Cookies terlebih dahulu. Sisihkan.
                                                 2. Di wadah yang lain, campurkan tepung, Tropicana Slim Sweetener Classic Refill, Tropicana Slim Korean Goguma Cookies yang sudah dihaluskan, dan baking powder. Aduk rata menggunakan whisk.
                                                 3. Tambahkan telur, susu Tropicana Slim Low Fat Milk Vanilla, dan butter leleh. Kemudian masukkan keju parut dan aduk kembali.
                                                 4. Tuang adonan ke dalam cetakan ¾ penuh dan kukus selama 30 menit hingga matang.
                                                 5. Setelah matang, tambahkan masing-masing topping dan kukus kembali selama 2 menit. Sajikan hangat. </string>
 
-    <string name="pie_buah" >- 50 g oat, haluskan
+    <string name="pie_buah">- 50 g oat, haluskan
                              - 30 g Tropicana Slim Sweetener Classic Refill
                              - 1 sdm susu Tropicana Slim Skim Milk Original
                              - 150 g tepung terigu
@@ -142,8 +145,11 @@
                              - 50 ml air es
                              - Buah segar: strawberry, kiwi, jeruk, apel, anggur (pilih sesuai selera) </string>
 
-    <string name="pie_buah_tutor" > 1. Campur oat dengan Tropicana Slim Sweetener Classic Refill, Tropicana Slim Skim Milk Original, tepung terigu dan margarin menjadi serpihan halus. Tambahkan telur dan air es secara bertahap. Aduk rata. Bulatkan dan tutup dengan selembar plastik. Diamkan 15 menit.
+    <string name="pie_buah_tutor"> 1. Campur oat dengan Tropicana Slim Sweetener Classic Refill, Tropicana Slim Skim Milk Original, tepung terigu dan margarin menjadi serpihan halus. Tambahkan telur dan air es secara bertahap. Aduk rata. Bulatkan dan tutup dengan selembar plastik. Diamkan 15 menit.
                                     2. Gilas adonan setebal ½ cm. Ratakan dalam loyang. Bentuk pinggirannya hingga rapi. Panggang dalam oven hingga matang.
                                     3. Vla: Campur tepung terigu, susu, garam, vanili, dan Tropicana Slim Sweetener Classic Refill. Tuangkan air secara bertahap. Tambahkan kuning telur. Aduk. Masak sambil diaduk hingga mengental. Tambahkan margarin. Angkat. Aduk rata hingga dingin.
                                     4. Semprotkan vla dalam kulit pie. Atur potongan buah di atasnya. Sajikan. </string>
+    <string name="app_name">Food Recipes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

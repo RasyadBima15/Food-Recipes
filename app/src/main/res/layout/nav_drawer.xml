@@ -38,35 +38,29 @@
             android:textSize="16sp" />
     </LinearLayout>
     <TextView
+        android:id="@+id/all_foods"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="All Foods"
         android:textSize="18sp"
-        android:layout_marginTop="12dp"
-        android:layout_marginStart="12dp"
+        android:paddingTop="12dp"
+        android:paddingStart="12dp"
         android:textColor="@color/white"
         android:drawableStart="@drawable/food"
         android:drawablePadding="8dp"/>
     <TextView
+        android:id="@+id/addfood"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Add Post"
+        android:text="Add Food"
         android:textSize="18sp"
-        android:layout_marginTop="12dp"
-        android:layout_marginStart="12dp"
+        android:paddingTop="20dp"
+        android:paddingStart="12dp"
+        android:paddingBottom="20dp"
         android:textColor="@color/white"
         android:drawableStart="@drawable/add"
         android:drawablePadding="8dp"/>
-    <LinearLayout
-        android:id="@+id/btn_sosmed"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:layout_marginStart="12dp"
-        android:orientation="vertical">
-    </LinearLayout>
     <View
-        android:layout_marginTop="12dp"
         android:layout_width="match_parent"
         android:layout_height="2dp"
         android:background="@color/white"/>
@@ -74,7 +68,7 @@
         android:id="@+id/btn_contact"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="20dp"
         android:layout_marginStart="12dp"
         android:orientation="vertical">
         <TextView
@@ -83,27 +77,30 @@
             android:text="Category"
             android:textSize="18sp"
             android:textColor="@color/white"
-            android:drawablePadding="8dp"
-            android:layout_marginBottom="20dp"/>
+            android:drawablePadding="8dp" />
         <TextView
+            android:id="@+id/dessert"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingTop="20dp"
             android:text="Dessert"
             android:textSize="18sp"
             android:textColor="@color/white"
             android:drawablePadding="8dp"
-            android:drawableStart="@drawable/dessert"
-            android:layout_marginBottom="12dp"/>
+            android:drawableStart="@drawable/dessert" />
         <TextView
+            android:id="@+id/maincourse"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawablePadding="8dp"
             android:text="Main Course"
             android:textColor="@color/white"
             android:textSize="18sp"
-            android:drawableStart="@drawable/main_course"
-            android:layout_marginBottom="12dp"/>
+            android:paddingTop="20dp"
+            android:drawableStart="@drawable/main_course"/>
         <TextView
+            android:paddingTop="20dp"
+            android:id="@+id/appetizer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawablePadding="8dp"
